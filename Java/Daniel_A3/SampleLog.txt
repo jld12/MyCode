@@ -1,0 +1,39 @@
+LOG FOR STOCK DAN
+2017-10-28 20:15:11.486: Investor 1 bought 1 shares at 31.0.
+2017-10-28 20:15:11.5: Investor 3 bought 7 shares at 31.0.
+2017-10-28 20:15:11.509: Investor 2 bought 4 shares at 31.0.
+2017-10-28 20:15:12.2: Investor 1 sold 1 shares at 31.0.
+2017-10-28 20:15:12.209: Investor 3 bought 6 shares at 31.0.
+2017-10-28 20:15:12.218: Price updated to 33.0.
+2017-10-28 20:15:12.222: Investor 2 bought 4 shares at 33.0.
+2017-10-28 20:15:12.904: Investor 1 bought 1 shares at 33.0.
+2017-10-28 20:15:12.912: Investor 3 bought 2 shares at 33.0.
+2017-10-28 20:15:12.927: Investor 2 sold 8 shares at 33.0.
+2017-10-28 20:15:13.613: Investor 1 bought 6 shares at 33.0.
+2017-10-28 20:15:13.617: Price updated to 32.0.
+2017-10-28 20:15:13.621: Investor 3 bought 8 shares at 32.0.
+2017-10-28 20:15:13.63: Investor 2 bought 1 shares at 32.0.
+2017-10-28 20:15:14.317: Investor 1 bought 7 shares at 32.0.
+2017-10-28 20:15:14.325: Investor 3 sold 8 shares at 32.0.
+2017-10-28 20:15:14.334: Investor 2 bought 1 shares at 32.0.
+2017-10-28 20:15:15.022: Price updated to 23.0.
+2017-10-28 20:15:15.026: Investor 1 sold 8 shares at 23.0.
+2017-10-28 20:15:15.031: Investor 3 bought 3 shares at 23.0.
+2017-10-28 20:15:15.04: Investor 2 bought 7 shares at 23.0.
+2017-10-28 20:15:15.731: Investor 1 bought 3 shares at 23.0.
+2017-10-28 20:15:15.737: Investor 3 bought 5 shares at 23.0.
+2017-10-28 20:15:15.743: Price updated to 22.0.
+2017-10-28 20:15:15.747: Investor 2 sold 2 shares at 22.0.
+2017-10-28 20:15:16.437: Investor 1 sold 4 shares at 22.0.
+2017-10-28 20:15:16.442: Investor 3 sold 6 shares at 22.0.
+2017-10-28 20:15:16.451: Investor 2 sold 5 shares at 22.0.
+2017-10-28 20:15:17.142: Investor 1 sold 5 shares at 22.0.
+2017-10-28 20:15:17.148: Price updated to 30.0.
+2017-10-28 20:15:17.152: Investor 3 sold 7 shares at 30.0.
+2017-10-28 20:15:17.156: Investor 2 sold 1 shares at 30.0.
+2017-10-28 20:15:17.848: Investor 1 bought 4 shares at 30.0.
+2017-10-28 20:15:17.856: Investor 3 sold 8 shares at 30.0.
+2017-10-28 20:15:17.861: Investor 2 bought 2 shares at 30.0.
+Investor 1 net: -262.0; Final balance: 9738.0
+Investor 3 net: -71.0; Final balance: 9929.0
+Investor 2 net: -93.0; Final balance: 9907.0
