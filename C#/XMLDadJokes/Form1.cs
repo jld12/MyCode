@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             {
 
                 int numJokes = cbNum.SelectedIndex;
-                lblJokes.Text = numJokes + " jokes selected.\n";
+                lblJokes.Text = numJokes + " jokes selected.";
 
                 var xml = XDocument.Load("jokes.xml");
 
@@ -45,7 +45,9 @@ namespace WindowsFormsApp1
                             c.Element("punchline").Value;
 
                     foreach (string joke in query)
-                        lblJokes.Text += "\n" + joke;
+                        lblJokes.Text += "\n\nJoke " + (i + 1) + ":\n" + joke;
+
+                    System.Threading.Thread.Sleep(100);
 
                 } 
 
