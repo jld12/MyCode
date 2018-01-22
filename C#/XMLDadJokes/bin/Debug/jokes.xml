@@ -1,105 +1,105 @@
 <jokes>
-  <joke>
+  <joke id="0">
     <setup>Why can&apos;t you hear a pterodactyl go to the bathroom?</setup>
     <punchline>Because the p is silent!</punchline>
   </joke>
-  <joke>
+  <joke id="1">
     <setup>My ex-wife still misses me...</setup>
     <punchline>But her aim is getting better!</punchline>
   </joke>
-  <joke>
+  <joke id="2">
     <setup>Velcro...</setup>
     <punchline>What a ripoff!</punchline>
   </joke>
-  <joke>
+  <joke id="3">
     <setup>Is pesticide good for crop-eating bugs?</setup>
     <punchline>No--it kills them!</punchline>
   </joke>
-  <joke>
+  <joke id="4">
     <setup>How do you find Will Smith in the snow?</setup>
     <punchline>Look for Fresh Prints!</punchline>
   </joke>
-  <joke>
+  <joke id="5">
     <setup>Don&apos;t trust stairs...</setup>
     <punchline>They&apos;re always up to something!</punchline>
   </joke>
-  <joke>
+  <joke id="6">
     <setup>I love the ground...</setup>
     <punchline>It&apos;s always there for me when I&apos;m down!</punchline>
   </joke>
-  <joke>
+  <joke id="7">
     <setup>A group of mimes attacked a pedestrian...</setup>
     <punchline>Their crimes were unspeakable!</punchline>
   </joke>
-  <joke>
+  <joke id="8">
     <setup>What garb do men from Thailand wear to work?</setup>
     <punchline>A suit and Thai!</punchline>
   </joke>
-  <joke>
+  <joke id="9">
     <setup>What do houses wear?</setup>
     <punchline>Address!</punchline>
   </joke>
-  <joke>
+  <joke id="10">
     <setup>A woman lost a marathon to a Sister...</setup>
     <punchline>But she was second to nun!</punchline>
   </joke>
-  <joke>
+  <joke id="11">
     <setup>Why did the scarecrow make the Dean&apos;s List?</setup>
     <punchline>It was out standing in its field!</punchline>
   </joke>
-  <joke>
+  <joke id="12">
     <setup>Why does a chicken coop have 2 doors?</setup>
     <punchline>If it had 4, it would be a chicken sedan!</punchline>
   </joke>
-  <joke>
+  <joke id="13">
     <setup>What happened when the priest blessed an avacado?</setup>
     <punchline>He made guaca-holy!</punchline>
   </joke>
-  <joke>
+  <joke id="14">
     <setup>I looked in the cupboard for some pita...</setup>
     <punchline>But we had nhan!</punchline>
   </joke>
-  <joke>
+  <joke id="15">
     <setup>I was going to watch the new Paddington movie...</setup>
     <punchline>But I could bearly handle the first one!</punchline>
   </joke>
-  <joke>
+  <joke id="16">
     <setup>I new scholarly article about a study involving fish came out...</setup>
     <punchline>It&apos;s pier reviewed!</punchline>
   </joke>
-  <joke>
+  <joke id="17">
     <setup>What&apos;s a good way to invest in bonds?</setup>
     <punchline>Buy a box set of all the movies!</punchline>
   </joke>
-  <joke>
+  <joke id="18">
     <setup>Why do mermaids wear seashells?</setup>
     <punchline>They can&apos;t fit in b-shells!</punchline>
   </joke>
-  <joke>
+  <joke id="19">
     <setup>Why did the scientist compare the behavior of two beetles?</setup>
     <punchline>To find the lesser of two weevils!</punchline>
   </joke>
-  <joke>
+  <joke id="20">
     <setup>What do you call a knockoff sodoku puzzle?</setup>
     <punchline>Pseudoku!</punchline>
   </joke>
-  <joke>
+  <joke id="21">
     <setup>What did the boy say when his brother stole his Doritos?</setup>
     <punchline>That&apos;s nacho cheese!</punchline>
   </joke>
-  <joke>
+  <joke id="22">
     <setup>What did the grape do when he didn&apos;t get his way?</setup>
     <punchline>He &apos;wined&apos;!</punchline>
   </joke>
-  <joke>
+  <joke id="23">
     <setup>There are 10 types of people in the world...</setup>
     <punchline>Those who understand binary and those who don&apos;t!</punchline>
   </joke>
-  <joke>
+  <joke id="24">
     <setup>My wife said she thought my gift sucked...</setup>
     <punchline>I said, &apos;I&apos;m glad you like your new vacuum cleaner!&apos;</punchline>
   </joke>
-  <joke>
+  <joke id="25">
     <setup>How could you describe a space restaurant?</setup>
     <punchline>Great food-but no atmosphere!</punchline>
   </joke>

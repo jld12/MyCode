@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace WindowsFormsApp1
 {
@@ -30,21 +31,25 @@ namespace WindowsFormsApp1
                 int numJokes = cbNum.SelectedIndex;
                 lblJokes.Text = numJokes + " jokes selected.\n";
 
-                XmlTextReader reader = new XmlTextReader("jokes.xml");
+                var xml = XDocument.Load("jokes.xml");
 
-                while (reader.Read())
+                for (int i = 0; i < numJokes; i++)
                 {
-                    if (numJokes > 0)
-                    {
 
-                        lblJokes.Text += "Jokes!\n";
+                    Random rand = new Random();
+                    int randNum = rand.Next(25);
 
-                        numJokes--;
+                    var query = from c in xml.Root.Descendants("joke")
+                            where (int)c.Attribute("id") == randNum
+                            select c.Element("setup").Value + "\n" +
+                            c.Element("punchline").Value;
 
-                    } 
-                }
+                    foreach (string joke in query)
+                        lblJokes.Text += "\n" + joke;
 
-                lblJokes.Text += "\nThanks for hearing bad jokes!";
+                } 
+
+                lblJokes.Text += "\n\nThanks for hearing bad jokes!";
 
             } else
             {
@@ -62,3 +67,16 @@ namespace WindowsFormsApp1
         }
     }
 }
+
+// Old code:
+//XmlTextReader reader = new XmlTextReader("jokes.xml");
+/*
+ * while (reader.Read())
+ * {
+ * if (numJokes > 0)
+ * {
+ * lblJokes.Text += "Jokes!\n";
+ * numJokes--;
+ * }
+ * }
+ */
