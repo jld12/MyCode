@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace WindowsFormsApp1
 {
@@ -27,7 +28,23 @@ namespace WindowsFormsApp1
             {
 
                 int numJokes = cbNum.SelectedIndex;
-                lblJokes.Text = numJokes + " jokes selected.";
+                lblJokes.Text = numJokes + " jokes selected.\n";
+
+                XmlTextReader reader = new XmlTextReader("jokes.xml");
+
+                while (reader.Read())
+                {
+                    if (numJokes > 0)
+                    {
+
+                        lblJokes.Text += "Jokes!\n";
+
+                        numJokes--;
+
+                    } 
+                }
+
+                lblJokes.Text += "\nThanks for hearing bad jokes!";
 
             } else
             {
